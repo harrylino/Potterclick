@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>contest</title>
+<link href="Style1.CSS" rel="stylesheet">
+<link href="Style.CSS" rel="stylesheet">
+<script>
+   $("a[href*='#welcome']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_welcome').offset().top }, 600, 'easeOutSine');
+   });
+</script>
+</head>
+<body>
+<div id="wb_welcome">
+<div id="welcome">
+<div class="col-1">
+<div id="wb_welcomeHeading1" style="display:inline-block;width:100%;z-index:0;">
+  <h1><i data-visualcompletion="css-img" aria-label="Instagram" class="" role="img" 
+      style="background-image: url(&quot;https://static.cdninstagram.com/rsrc.php/v3/yK/r/ATdtiLb2BQ9.png&quot;);
+       background-position: 0px 0px; background-size: 176px 181px; width: 175px; height: 51px; background-repeat:
+        no-repeat; display: inline-block;"></i></h1>
+</div>
+<h2 id="welcomeHeading2">CONTESTANT<br></h2>
+</div>
+<hr id="welcomeLine" style="display:inline-block;width:410px;z-index:1;">
+<div id="wb_welcomeHeading2" style="display:inline-block;width:100%;z-index:2;">
+<h2 id="welcomeHeading2">VOTE FOR YOUR FAVORITE CONTESTANT OR JOIN THE CONTEST<br></h2>
+</div>
+<a id="welcomeButton1" href="form.html" style="display:inline-block;width:176px;height:42px;z-index:3;">VOTE</a>
+<a id="welcomeButton2" href="form.html" style="display:inline-block;width:176px;height:42px;z-index:4;">JOIN CONTEST</a>
+
+<footer>
+</div>
+</div> 
+</footer>
+<p>Sponsored by <span class="bottom-left-word">styled</span> Instagram Influencers.</p>
+<!-- <div class="background-image"></div>
+<div class="image-container">
+   <img src="IMG (1).jpg" alt="Image 1" class="jumping-image">
+   <img src="IMG (3).jpg" alt="Image 2" class="jumping-image">
+   <img src="IMG (4).jpg" alt="Image 3" class="jumping-image">
+   <img src="IMG (5).jpg" alt="Image 4" class="jumping-image">
+   <img src="IMG (6).jpg" alt="Image 5" class="jumping-image">
+   <img src="IMG (7).jpg" alt="Image 6" class="jumping-image">
+ </div> -->
+
+</body>
+
+</html>

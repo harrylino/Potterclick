@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form__container {
+  width: 35%;
+  margin: 13vmin auto;
+  text-align: center;
+  /* border: 2px solid black; */
+}
+
+.form__container img {
+  width: 32vmin;
+  height: 12vmin;
+  object-fit: contain;
+}
+
+.form__container form {
+  margin-top: 5vmin;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__container form input {
+  padding: 1.7vmin 2vmin;
+  margin-bottom: 2vmin;
+  border: 0.3px solid #d5d5d5;
+  border-radius: 2px;
+  font-size: 16px;
+  outline: none;
+}
+
+.form__container form input:focus {
+  border: 0.5px solid #999898;
+}
+
+.form__container form .btn {
+  margin-top: 2vmin;
+  margin-bottom: 4vmin;
+  padding: 1.8vmin;
+  font-size: 18px;
+  background-color: #309ddb;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form__container a {
+  text-decoration: none;
+  color: #0776b6;
+  font-size: 17px;
+}
+
+.form__container .account {
+  margin-top: 6vmin;
+  margin-left: 2vmin;
+  font-size: 17px;
+}
+
+.form__container p a {
+  color: #309ddb;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.incorrect__password {
+  display: block;
+  color: red;
+  margin: 0 !important;
+  margin-bottom: 4vmin !important;
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 660px) {
+  .form__container {
+    width: 90%;
+    margin: 25vmin auto;
+  }
+  .form__container img {
+    width: 38vmin;
+    height: 20vmin;
+    object-fit: contain;
+  }
+  .form__container form {
+    margin-top: 8vmin;
+  }
+  .form__container form input {
+    padding: 3vmin 2.5vmin;
+    margin-bottom: 4vmin;
+    font-size: 15px;
+  }
+  .form__container form .btn {
+    margin-top: 4vmin;
+    margin-bottom: 15vmin;
+    padding: 2.5vmin;
+    font-size: 17px;
+  }
+  .form__container a {
+    font-size: 16px;
+  }
+  .form__container .account {
+    margin-top: 5vmin;
+    margin-left: 5vmin;
+    font-size: 16px;
+  }
+  .form__container p a {
+    font-size: 17px;
+  }
+}

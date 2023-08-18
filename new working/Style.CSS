@@ -1,0 +1,297 @@
+body
+{
+   background-color: #FFFFFF;
+   background-image: url('IMG\ \(1\).jpg');
+   background-attachment: scroll;
+   background-position: left top;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_welcome
+{  
+   text-shadow: 1px 1px 1px #e80404;
+   text-align: center;
+   vertical-align: bottom;
+}
+
+#bottom-left-word {
+   vertical-align: bottom;
+   text-align: left;
+   font-style: italic;
+ }
+
+visibility:hidden{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #f09daf;
+   background-image: none;
+   border: 0px solid #ffffff;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 50px 0 0 0 ;
+}
+#welcome
+{
+   box-sizing: border-box;
+   padding: 75px 15px 75px 15px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1024px;
+}
+#welcome > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#welcome > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#welcome > .row > .col-1
+{
+   float: left;
+}
+#welcome > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 100%;
+   text-align: center;
+}
+#welcome:before,
+#welcome:after,
+#welcome .row:before,
+#welcome .row:after
+{
+   display: table;
+   content: " ";
+}
+#welcome:after,
+#welcome .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#welcome > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+
+#welcomeHeading1
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 32px;
+   margin: 0;
+   text-align: center;
+}
+#welcomeLine
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 1px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+   height: 0 !important;
+   line-height: 0 !important;
+   margin: 20px 0 20px 0 ;
+   padding: 0;
+}
+#wb_welcomeHeading2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   vertical-align: top;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   text-align: center;
+}
+#welcomeHeading2
+{
+   color: #C8ECE9;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+   margin: 0;
+   text-align: center;
+}
+#welcomeButton1
+{
+   box-sizing: border-box;
+   line-height: 38px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 2px solid #007BFF;
+   border-radius: 31px;
+   background-color: #007BFF;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   padding: 0;
+   text-align: center;
+   -apple-pay-button: none;
+   margin: 10px 10px 10px 10px;
+   animation: animate-fade-in 2000ms linear 1000ms 1 normal both;
+}
+#welcomeButton1:focus
+{
+   outline: 0;
+}
+#welcomeButton1
+{
+   background-color: #007BFF;
+   border-color: #007BFF;
+   transition: background-color 300ms linear 0ms, border-color 300ms linear 0ms;
+}
+#welcomeButton1:hover
+{
+   background-color: rgba(0,123,255,0.00);
+   border-color: #FFFFFF;
+   transition: background-color 300ms linear 0ms, border-color 300ms linear 0ms;
+}
+#welcomeButton2
+{
+   box-sizing: border-box;
+   line-height: 38px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 2px solid #FFFFFF;
+   border-radius: 31px;
+   background-color: #16409F;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   padding: 0;
+   text-align: center;
+   -apple-pay-button: none;
+   margin: 10px 10px 10px 10px;
+   animation: animate-fade-in 2000ms linear 2000ms 1 normal both;
+}
+#welcomeButton2:focus
+{
+   outline: 0;
+}
+#welcomeButton2:hover
+{
+   background-color: #007BFF;
+   border-color: #007BFF;
+   transition: background-color 300ms linear 0ms, border-color 300ms linear 0ms;
+}
+#welcomeButton2
+{
+   background-color: rgba(254, 255, 255, 0);
+   border-color: #FFFFFF;
+   transition: background-color 300ms linear 0ms, border-color 300ms linear 0ms;
+}
+
+
+
+
+
+
+visibility:hidden{
+
+body {
+   margin: 0;
+   overflow: hidden;
+ }
+ 
+ .image-container {
+   position: relative;
+   width: 100vw;
+   height: 100vh;
+   perspective: 1000px;
+ }
+ 
+ .jumping-image {
+   position: absolute;
+   width: 100px;
+   height: 100px;
+   object-fit: cover;
+   border-radius: 100%;
+   transform-style: preserve-3d;
+   animation: jumpAndMove 3s ease-in-out infinite;
+ ;
+ }
+ 
+ @keyframes jumpAndMove {
+   0%, 100% {
+     transform: translateY(0) rotateX(0) rotateY(0);
+   }
+   50% {
+     transform: translateY(-100px) rotateX(45deg) rotateY(45deg);
+   }
+ }
+ 
+ .jumping-image:nth-child(1) {
+   top: 10%;
+   left: 10%;
+   animation: jumpAndMove 3s ease-in-out infinite;
+ }
+ 
+ .jumping-image:nth-child(2) {
+   top: 20%;
+   left: 25%;
+ }
+ 
+ .jumping-image:nth-child(3) {
+   top: 30%;
+   left: 40%;
+ }
+ 
+ .jumping-image:nth-child(4) {
+   top: 40%;
+   left: 55%;
+ }
+ 
+ .jumping-image:nth-child(5) {
+   top: 50%;
+   left: 70%;
+ }
+ 
+ .jumping-image:nth-child(6) {
+   top: 60%;
+   left: 85%;
+ }
+ 
+ .jumping-image:nth-child(7) {
+   top: 70%;
+   left: 75%;
+ }
+
+ 
+}
